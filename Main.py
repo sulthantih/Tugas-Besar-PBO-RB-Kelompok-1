@@ -265,7 +265,7 @@ scoreTimer = 0
 
     
 ground_stoneAge = pygame.image.load('images/game/jalananbatuu.png').convert_alpha()
-grass_IMG_1 = pygame.image.load('images/game/surface1.png').convert_alpha()
+bebatuan_IMG_1 = pygame.image.load('images/game/surface1.png').convert_alpha()
 MeteorApi = 5000
 sky_background = pygame.image.load('images/game/back.png').convert_alpha()
 nightOverlayIMG = pygame.image.load('images/game/night overlay.png').convert_alpha()
@@ -425,7 +425,7 @@ while True:
         MeteorSedang.update(movementSpeed,3500,1300,-63)
         MeteorBesar.update(movementSpeed,5800,1500,-77)
         aliennebula.update(movementSpeed,6500,2200,-105,0.4)
-        screen.blit(grass_IMG_1, (bebatuan,180))
+        screen.blit(bebatuan_IMG_1, (bebatuan,180))
 
     # Player Health
         pygame.draw.rect(screen, HPbar_RGB, (30, 400, 15, HPbar_height))
